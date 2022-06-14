@@ -1,4 +1,4 @@
-.loader{
+.loader {
     position: fixed;
     z-index: 99;
     top: 0;
@@ -9,27 +9,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.loader.hidden{
-  animation: clear 1s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes clear{
+  }
+  
+  .loader.hidden {
+    animation: clear 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes clear {
     100% {
       opacity: 100%;
       visibility: hidden;
     }
-
-}
-.side{
+  }
+  .side {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-}
-.side a{
-    background:#e74c3c;
+  }
+  .side a {
+    background: #e74c3c;
     color: #ecf0f1;
     font-size: 22px;
     display: block;
@@ -41,51 +40,54 @@
     border-radius: 6px;
     margin-left: -150px;
     transition: 0.6s all;
-}
-.side a:hover{
+  }
+  .side a:hover {
     margin-left: 0;
-}
-*{
+  }
+  * {
     margin: 0;
     padding: 0;
-    font-family: "montserrat",sans-serif;
-}
-body{
+    font-family: "montserrat", sans-serif;
+  }
+  body {
     background: #333;
-}
-.container{
-    background: url(bg2.jpg) no-repeat center;
+  }
+  .container {
+    background: url(../img/bg2.jpg) no-repeat center;
     background-size: cover;
     padding: 289px 40px;
     text-align: center;
     color: white;
-}
-.email-box{
+  }
+  .email-box {
     height: 40px;
     display: flex;
     justify-content: center;
-}
-.email-box i{
+  }
+  .email-box i {
     background: #2f3542;
     width: 40px;
     line-height: 40px;
-}
-.tbox,.btn{
+  }
+  .tbox,
+  .btn {
     border: none;
     outline: none;
-}
-.tbox{
+  }
+  .tbox {
     width: 0px;
     transition: 0.6s;
-}
-.email-box:hover > .tbox,.tbox:focus{
+  }
+  .email-box:hover > .tbox,
+  .tbox:focus {
     width: 260px;
     padding: 0 10px;
-}
-.btn{
+  }
+  .btn {
     background: #2f3542;
     color: white;
     padding: 0 10px;
     text-transform: uppercase;
     cursor: pointer;
-}
+  }
+  
